@@ -4,7 +4,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework import status
 from rest_framework.response import Response
 
-@api_view(['GET'])
-@permission_classes([IsAuthenticated])
-def restriction(request, *args, **kwargs):
-    return Response(data = "Only for logged in users", status = status.HTTP_200_OK)
+# @api_view(['GET'])
+# @permission_classes([IsAuthenticated])
+# def restriction(request, *args, **kwargs):
+#     return Response(data = "Only for logged in users", status = status.HTTP_200_OK)
